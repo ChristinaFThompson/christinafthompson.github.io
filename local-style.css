@@ -15,12 +15,12 @@ html {
 padding: 100px 100px;
 }
 .border{
-  color: white;
+  color: red;
   font-size: 40px;
 }
 .border2 {
   padding: 50px;
-  color: white;
+  color: black;
   font-size: 25px;
 }
 .section {
