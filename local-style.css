@@ -10,7 +10,7 @@ html {
   color: #3d4246;
 }
 .heading {
-  color: white;
+  color: red;
   font-size: 90px;
 padding: 100px 100px;
 }
@@ -53,7 +53,7 @@ padding: 100px 100px;
 }
 
 .pic1 {
-  background-image: url(/images/cover.jpg);
+  background-image: url(images/cover.jpg);
   min-height: 100%;
 }
 
