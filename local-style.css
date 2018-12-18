@@ -15,7 +15,7 @@ html {
 padding: 100px 100px;
 }
 .border{
-  color: red;
+  color: white;
   font-size: 40px;
 }
 .border2 {
@@ -63,6 +63,6 @@ padding: 100px 100px;
 }
 
 .pic3 {
-  background-image: url(/images/stone.jpg);
+  background-image: url(images/stone.jpg);
   min-height: 60%;
 }
