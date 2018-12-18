@@ -58,11 +58,11 @@ padding: 100px 100px;
 }
 
 .pic2 {
-  background-image: url(/Users/cthompson/wdi/portfolio/images/brick-writing.jpg);
+  background-image: url(/images/brick-writing.jpg);
   min-height: 60%;
 }
 
 .pic3 {
-  background-image: url(/Users/cthompson/wdi/portfolio/images/stone.jpg);
+  background-image: url(/images/stone.jpg);
   min-height: 60%;
 }
