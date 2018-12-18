@@ -1,0 +1,68 @@
+body,
+html {
+  height: 100%;
+  margin: 0%;
+  font-size: 16px;
+  font-display: "Comic Sans MS", sans-serif,;
+  font-display: libre
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #3d4246;
+}
+.heading {
+  color: white;
+  font-size: 90px;
+padding: 100px 100px;
+}
+.border{
+  color: white;
+  font-size: 40px;
+}
+.border2 {
+  padding: 50px;
+  color: white;
+  font-size: 25px;
+}
+.section {
+  color: black;
+  font-size: 30px;
+  font-weight: 800px;
+  text-align: center;
+
+}
+.section-light {
+  font-size: 20px;
+}
+
+.caption{
+  /* border: 3px solid red; */
+  padding: 300px 100px;
+  text-align: center;
+}
+
+.pic1,
+.pic2,
+.pic3 {
+  position: relative;
+  /* opacity: 0.8; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* to remove parallax use scroll instead of fixed */
+  background-attachment: fixed;
+}
+
+.pic1 {
+  background-image: url(/Users/cthompson/wdi/portfolio/images/cover.jpg);
+  min-height: 100%;
+}
+
+.pic2 {
+  background-image: url(/Users/cthompson/wdi/portfolio/images/brick-writing.jpg);
+  min-height: 60%;
+}
+
+.pic3 {
+  background-image: url(/Users/cthompson/wdi/portfolio/images/stone.jpg);
+  min-height: 60%;
+}
