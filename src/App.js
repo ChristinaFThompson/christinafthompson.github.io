@@ -29,11 +29,13 @@ class App extends Component {
         <div className="Parallax" />
         <Parallax bgImage={image2} strength={500}>
           <div style={{ height: 1000 }}>
-            <div style={insideStyles}>
-              <h1 className="header">Christina Thompson </h1>
-              {/* <span className="tagline">Developer | </span> */}
+            {/* <div style={insideStyles}> */}
+            <h1 className="header">Christina Thompson </h1>
+            <div className="tagline">
+              <span>Software Engineer </span>
             </div>
           </div>
+          {/* </div> */}
         </Parallax>
         <h2 className="center"> ABOUT.</h2>
         <Parallax bgImage={image3} strength={500}>
@@ -72,11 +74,11 @@ class App extends Component {
                   </section>
                 </div>
               </div>
-              <a href="https://github.com/ChristinaFThompson/Jeopardy-project1">
+              <a href="https://github.com/ChristinaFThompson/GiveBlack">
                 <p className="links">[ Github ]</p>
               </a>
               <a href="https://giveblack-project2.herokuapp.com/">
-                <p className="links">[ App ]</p>
+                <p className="links">[ GiveBlack ]</p>
               </a>
               <br />
               <div className="card-container">
@@ -94,13 +96,21 @@ class App extends Component {
                 <p className="links">[ Github ]</p>
               </a>
               <a href="https://trippin-travel.herokuapp.com/">
-                <p className="links">[ App ]</p>
+                <p className="links">[ Trippin' ]</p>
               </a>
             </div>
           </div>
         </Parallax>
+
         <footer className="contact">
-          <p>Let's build something great! email me: cfthompson321@gmail.com </p>
+          <p>
+            <a
+              href="mailto:thomp.christina@gmail.com?Subject=We're%20Interested"
+              target="_top"
+            >
+              Send Mail
+            </a>
+          </p>
         </footer>
       </div>
     );

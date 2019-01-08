@@ -1,15 +1,27 @@
 .card-container {
 }
+
 .header {
   font-family: "Apple Chancery";
-  font-size: 100px;
+  font-size: 65px;
+  padding-top: 300px;
+  text-align: center;
+  /* border: 3px solid green; */
   color: rgba(7, 53, 65, 0.966);
 }
+.tagline {
+  text-align: center;
+  font: "Roboto";
+  font-size: 30px;
+  color: rgba(10, 41, 52, 0.776);
+  font-weight: bold;
+}
 .description {
-  font-family: "Comic Sans MS";
+  font: "Roboto";
+  /* font-family: "Lucida Console"; */
   font-size: 30px;
   font-weight: bold;
-  color: rgba(219, 230, 230, 0.966);
+  color: rgba(39, 43, 43, 0.966);
 }
 .card {
   position: relative;
@@ -23,7 +35,7 @@
 .links {
   display: flex;
   justify-content: center;
-  color: blue;
+  color: rgba(39, 43, 43, 0.966);
 }
 .center {
   text-align: center;
