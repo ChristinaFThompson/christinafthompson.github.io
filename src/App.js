@@ -74,9 +74,6 @@ class App extends Component {
                   </section>
                 </div>
               </div>
-              <a href="https://github.com/ChristinaFThompson/GiveBlack">
-                <p className="links">[ Github ]</p>
-              </a>
               <a href="https://giveblack-project2.herokuapp.com/">
                 <p className="links">[ GiveBlack ]</p>
               </a>
@@ -92,9 +89,6 @@ class App extends Component {
                   </section>
                 </div>
               </div>
-              <a href="https://github.com/ChristinaFThompson/Trippin-Frontend">
-                <p className="links">[ Github ]</p>
-              </a>
               <a href="https://trippin-travel.herokuapp.com/">
                 <p className="links">[ Trippin' ]</p>
               </a>
@@ -104,11 +98,19 @@ class App extends Component {
 
         <footer className="contact">
           <p>
-            <a
-              href="mailto:thomp.christina@gmail.com?Subject=We're%20Interested"
-              target="_top"
-            >
-              Contact Me
+            <a href="https://github.com/ChristinaFThompson">
+              <img
+                src="https://i.imgur.com/f3olzOzm.png"
+                height="50"
+                width="50"
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/christinafthompson/">
+              <img
+                src="https://i.imgur.com/QwjdDdvt.png"
+                height="50"
+                width="50"
+              />
             </a>
           </p>
         </footer>
