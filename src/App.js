@@ -94,26 +94,27 @@ class App extends Component {
               </a>
             </div>
           </div>
-        </Parallax>
+          {/* </Parallax> */}
 
-        <footer className="contact">
-          <p>
-            <a href="https://github.com/ChristinaFThompson">
-              <img
-                src="https://i.imgur.com/f3olzOzm.png"
-                height="50"
-                width="50"
-              />
-            </a>
-            <a href="https://www.linkedin.com/in/christinafthompson/">
-              <img
-                src="https://i.imgur.com/QwjdDdvt.png"
-                height="50"
-                width="50"
-              />
-            </a>
-          </p>
-        </footer>
+          <footer className="contact">
+            <p>
+              <a href="https://github.com/ChristinaFThompson">
+                <img
+                  src="https://i.imgur.com/f3olzOzm.png"
+                  height="50"
+                  width="50"
+                />
+              </a>
+              <a href="https://www.linkedin.com/in/christinafthompson/">
+                <img
+                  src="https://i.imgur.com/QwjdDdvt.png"
+                  height="50"
+                  width="50"
+                />
+              </a>
+            </p>
+          </footer>
+        </Parallax>
       </div>
     );
   }
