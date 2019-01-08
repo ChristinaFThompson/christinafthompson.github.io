@@ -108,7 +108,7 @@ class App extends Component {
               href="mailto:thomp.christina@gmail.com?Subject=We're%20Interested"
               target="_top"
             >
-              Send Mail
+              Contact Me
             </a>
           </p>
         </footer>
