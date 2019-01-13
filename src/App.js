@@ -54,6 +54,12 @@ class App extends Component {
                 Constantly learning, I've worked with React, Javascript,
                 Express, Node.js, HTML5 & CSS, Python, Django, MongoDB,
                 PostgreSQL.
+                <p className="description">
+                  I have devoted the past few years to social justice and I
+                  leverage those skills and passion to build holistic and
+                  thoughtful applications that prove to be impactful and yield
+                  positive and equitable change.
+                </p>
               </p>
             </div>
           </div>
@@ -90,7 +96,7 @@ class App extends Component {
                 </div>
               </div>
               <a href="https://trippin-travel.herokuapp.com/">
-                <p className="links">[ Trippin' ]</p>
+                <section className="links">[ Trippin' ]</section>
               </a>
             </div>
           </div>

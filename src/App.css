@@ -1,5 +1,5 @@
-.card-container {
-}
+/* .card-container {
+} */
 
 .header {
   font-family: "Apple Chancery";
@@ -17,8 +17,7 @@
   font-weight: bold;
 }
 .description {
-  font: "Roboto";
-  /* font-family: "Lucida Console"; */
+  font: "Apple Chancery";
   font-size: 25px;
   font-weight: bold;
   color: rgba(39, 43, 43, 0.966);

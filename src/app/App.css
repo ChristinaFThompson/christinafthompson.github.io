@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border: 3px solid red;
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  /* border: 2px solid black; */
+}
+.fab {
+  font-size: 40px;
+  color: black;
+}
