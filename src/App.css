@@ -1,6 +1,3 @@
-/* .card-container {
-} */
-
 .header {
   font-family: "Apple Chancery";
   font-size: 65px;
@@ -9,6 +6,7 @@
   /* border: 3px solid green; */
   color: rgba(7, 53, 65, 0.966);
 }
+
 .tagline {
   text-align: center;
   font: "Roboto";

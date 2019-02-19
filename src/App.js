@@ -1,129 +1,129 @@
-import React, { Component } from "react";
-import "./App.css";
-import { Parallax } from "react-parallax";
+// import React, { Component } from "react";
+// import "./App.css";
+// import { Parallax } from "react-parallax";
 
-const styles = {
-  fontFamily: "Lucida Sans",
-  textAlign: "center"
-};
-const insideStyles = {
-  // background: "white",
-  padding: 20,
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%,-50%)"
-};
+// const styles = {
+//   fontFamily: "Lucida Sans",
+//   textAlign: "center"
+// };
+// const insideStyles = {
+//   // background: "white",
+//   padding: 20,
+//   position: "absolute",
+//   top: "50%",
+//   left: "50%",
+//   transform: "translate(-50%,-50%)"
+// };
 
-const image1 =
-  "https://images.pexels.com/photos/761142/pexels-photo-761142.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
-const image2 =
-  "https://images.pexels.com/photos/1092364/pexels-photo-1092364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
-const image3 =
-  "https://images.pexels.com/photos/696644/pexels-photo-696644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260";
+// const image1 =
+//   "https://images.pexels.com/photos/761142/pexels-photo-761142.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+// const image2 =
+//   "https://images.pexels.com/photos/1092364/pexels-photo-1092364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+// const image3 =
+//   "https://images.pexels.com/photos/696644/pexels-photo-696644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260";
 
-class App extends Component {
-  render() {
-    return (
-      <div className={styles}>
-        <div className="Parallax" />
-        <Parallax bgImage={image2} strength={500}>
-          <div style={{ height: 1000 }}>
-            {/* <div style={insideStyles}> */}
-            <h1 className="header">Christina Thompson </h1>
-            <div className="tagline">
-              <span>Software Engineer </span>
-            </div>
-          </div>
-          {/* </div> */}
-        </Parallax>
-        <h2 className="center"> ABOUT.</h2>
-        <Parallax bgImage={image3} strength={500}>
-          <div style={{ height: 1000 }}>
-            <div style={insideStyles}>
-              <p className="description">
-                As a software engineer with a growing understanding of computer
-                science fundamentals, I analyze and develop practical solutions
-                with technology. I aim to create tools that accelerate
-                operational capacity for organizations. My empathetic approach
-                facilitates coalition building and quantifiable results.
-              </p>
-              <p className="description">
-                I enjoy the nuance of integrating different backend and frontend
-                frameworks, finding joy in the highs and lows of each project.
-                Constantly learning, I've worked with React, Javascript,
-                Express, Node.js, HTML5 & CSS, Python, Django, MongoDB,
-                PostgreSQL.
-                <p className="description">
-                  I have devoted the past few years to social justice and I
-                  leverage those skills and passion to build holistic and
-                  thoughtful applications that prove to be impactful and yield
-                  positive and equitable change.
-                </p>
-              </p>
-            </div>
-          </div>
-        </Parallax>
-        <h2 className="center"> WORK.</h2>
-        <Parallax bgImage={image2} strength={500}>
-          <div style={{ height: 1000 }}>
-            <div style={insideStyles}>
-              {/* <h1>Parallax Flipping Cards</h1> */}
-              <div className="card-container">
-                <div className="card">
-                  <section className="front">
-                    <img
-                      src="https://i.imgur.com/FhP366s.png"
-                      height="300"
-                      width="500"
-                    />
-                  </section>
-                </div>
-              </div>
-              <a href="https://giveblack-project2.herokuapp.com/">
-                <p className="links">[ GiveBlack ]</p>
-              </a>
-              <br />
-              <div className="card-container">
-                <div className="card">
-                  <section className="front">
-                    <img
-                      src="https://i.imgur.com/PdIFRph.png"
-                      height="300"
-                      width="500"
-                    />
-                  </section>
-                </div>
-              </div>
-              <a href="https://trippin-travel.herokuapp.com/">
-                <section className="links">[ Trippin' ]</section>
-              </a>
-            </div>
-          </div>
-          {/* </Parallax> */}
+// class App extends Component {
+//   render() {
+//     return (
+//       <div className={styles}>
+//         <div className="Parallax" />
+//         <Parallax bgImage={image2} strength={500}>
+//           <div style={{ height: 1000 }}>
+//             {/* <div style={insideStyles}> */}
+//             <h1 className="header">Christina Thompson </h1>
+//             <div className="tagline">
+//               <span>Software Engineer </span>
+//             </div>
+//           </div>
+//           {/* </div> */}
+//         </Parallax>
+//         <h2 className="center"> ABOUT.</h2>
+//         <Parallax bgImage={image3} strength={500}>
+//           <div style={{ height: 1000 }}>
+//             <div style={insideStyles}>
+//               <p className="description">
+//                 As a software engineer with a growing understanding of computer
+//                 science fundamentals, I analyze and develop practical solutions
+//                 with technology. I aim to create tools that accelerate
+//                 operational capacity for organizations. My empathetic approach
+//                 facilitates coalition building and quantifiable results.
+//               </p>
+//               <p className="description">
+//                 I enjoy the nuance of integrating different backend and frontend
+//                 frameworks, finding joy in the highs and lows of each project.
+//                 Constantly learning, I've worked with React, Javascript,
+//                 Express, Node.js, HTML5 & CSS, Python, Django, MongoDB,
+//                 PostgreSQL.
+//                 <p className="description">
+//                   I have devoted the past few years to social justice and I
+//                   leverage those skills and passion to build holistic and
+//                   thoughtful applications that prove to be impactful and yield
+//                   positive and equitable change.
+//                 </p>
+//               </p>
+//             </div>
+//           </div>
+//         </Parallax>
+//         <h2 className="center"> WORK.</h2>
+//         <Parallax bgImage={image2} strength={500}>
+//           <div style={{ height: 1000 }}>
+//             <div style={insideStyles}>
+//               {/* <h1>Parallax Flipping Cards</h1> */}
+//               <div className="card-container">
+//                 <div className="card">
+//                   <section className="front">
+//                     <img
+//                       src="https://i.imgur.com/FhP366s.png"
+//                       height="300"
+//                       width="500"
+//                     />
+//                   </section>
+//                 </div>
+//               </div>
+//               <a href="https://giveblack-project2.herokuapp.com/">
+//                 <p className="links">[ GiveBlack ]</p>
+//               </a>
+//               <br />
+//               <div className="card-container">
+//                 <div className="card">
+//                   <section className="front">
+//                     <img
+//                       src="https://i.imgur.com/PdIFRph.png"
+//                       height="300"
+//                       width="500"
+//                     />
+//                   </section>
+//                 </div>
+//               </div>
+//               <a href="https://trippin-travel.herokuapp.com/">
+//                 <section className="links">[ Trippin' ]</section>
+//               </a>
+//             </div>
+//           </div>
+//           {/* </Parallax> */}
 
-          <footer className="contact">
-            <p>
-              <a href="https://github.com/ChristinaFThompson">
-                <img
-                  src="https://i.imgur.com/f3olzOzm.png"
-                  height="50"
-                  width="50"
-                />
-              </a>
-              <a href="https://www.linkedin.com/in/christinafthompson/">
-                <img
-                  src="https://i.imgur.com/QwjdDdvt.png"
-                  height="50"
-                  width="50"
-                />
-              </a>
-            </p>
-          </footer>
-        </Parallax>
-      </div>
-    );
-  }
-}
+//           <footer className="contact">
+//             <p>
+//               <a href="https://github.com/ChristinaFThompson">
+//                 <img
+//                   src="https://i.imgur.com/f3olzOzm.png"
+//                   height="50"
+//                   width="50"
+//                 />
+//               </a>
+//               <a href="https://www.linkedin.com/in/christinafthompson/">
+//                 <img
+//                   src="https://i.imgur.com/QwjdDdvt.png"
+//                   height="50"
+//                   width="50"
+//                 />
+//               </a>
+//             </p>
+//           </footer>
+//         </Parallax>
+//       </div>
+//     );
+//   }
+// }
 
-export default App;
+// export default App;
