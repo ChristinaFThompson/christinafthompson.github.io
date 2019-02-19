@@ -13,6 +13,8 @@ footer {
 header {
   display: flex;
   justify-content: center;
+  font-weight: bold;
+  text-transform: uppercase;
   font-size: 15px;
   border: 2px solid black;
   margin: 0px 8px 0px 8px;
@@ -26,7 +28,13 @@ header {
 }
 nav {
   display: flex;
-  /* border: 2px solid rgb(12, 201, 81); */
+  font-weight: bold;
+  padding-left: 25px;
+  border: 2px solid rgb(12, 201, 81);
+}
+
+nav a {
+  padding-left: 10px;
 }
 
 .navborder {

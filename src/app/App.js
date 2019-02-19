@@ -28,7 +28,7 @@ class App extends Component {
                 color: "grey"
               }}
             >
-              CHRISTINA F. THOMPSON
+              Christina f. thompson
             </Link>
             <div className="spacer" />
             <button className="burger" onClick={this.handleClick} />
