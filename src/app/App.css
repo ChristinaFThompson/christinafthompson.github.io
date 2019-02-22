@@ -2,6 +2,7 @@
   height: 100%;
   width: 100%;
 }
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -12,25 +13,34 @@ footer {
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: baseline;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 15px;
-  border: 2px solid black;
+  color: rgb(92, 89, 89);
+  /* border: 2px solid black; */
   margin: 0px 8px 0px 8px;
 }
-
+header a {
+  text-decoration: none;
+  border: none;
+  color: rgb(92, 89, 89);
+}
 .fab,
 .fas {
   font-size: 36px;
   align-content: center;
-  color: rgb(105, 99, 99);
+  color: rgb(92, 89, 89);
 }
+
 nav {
   display: flex;
+  justify-content: center;
   font-weight: bold;
-  padding-left: 25px;
-  border: 2px solid rgb(12, 201, 81);
+  padding: 5px;
+  text-transform: uppercase;
+
+  /* border: 2px solid rgb(12, 201, 81); */
 }
 
 nav a {
@@ -39,12 +49,12 @@ nav a {
 
 .navborder {
   display: flex;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 100%;
-  padding: 10px;
+  padding: 3px;
   overflow: hidden;
 }
-.navborder:hover {
+.navborder :hover {
   cursor: pointer;
 }
 
@@ -58,8 +68,8 @@ nav a {
   position: fixed;
   z-index: 2;
   box-sizing: border-box;
-  justify-content: space-between;
-  background-image: url("https://images.pexels.com/photos/1903409/pexels-photo-1903409.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  /* justify-content: space-between; */
+  background-image: url("http://www.stickpng.com/assets/images/588a64e7d06f6719692a2d11.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -69,15 +79,10 @@ nav a {
 .spacer {
   flex: 1;
 }
+
 /* media  */
 
 @media screen and (max-width: 600px) {
-  footer {
-    background: grey;
-  }
-  header {
-    /* background: pink; */
-  }
   .nav-open {
     display: flex;
     flex-direction: column;
@@ -86,18 +91,25 @@ nav a {
   .nav-closed {
     display: none;
   }
-  .nav-open a {
-    margin-bottom: 5px;
-  }
+
   .burger {
     display: flex;
-    right: 4%;
-    top: 2%;
+    right: 5%;
+    top: 4px;
   }
   nav {
     display: flex;
     flex-direction: column;
     background: white;
     text-align: right;
+  }
+
+  .nav-open a {
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  header {
+    padding-top: 30px;
   }
 }

@@ -21,38 +21,30 @@ class App extends Component {
       <div className="app">
         <header>
           <div className="navborder">
-            <Link
-              to="/"
-              style={{
-                textDecoration: "none",
-                color: "grey"
-              }}
-            >
-              Christina f. thompson
-            </Link>
+            <Link to="/">Christina f. thompson</Link>
             <div className="spacer" />
             <button className="burger" onClick={this.handleClick} />
             <div className={this.state.toggleOn ? "nav-open" : "nav-closed"}>
               <nav>
                 <Link
-                  to="/about"
+                  to="/work"
                   style={{ textDecoration: "none", color: "grey" }}
                 >
-                  ABOUT
+                  work
                 </Link>
                 <Link
-                  to="/work"
+                  to="/about"
                   style={{ textDecoration: "none", color: "grey" }}
                   className="work"
                 >
-                  WORK
+                  about
                 </Link>{" "}
                 <Link
                   to="/resume"
                   style={{ textDecoration: "none", color: "grey" }}
                   className="resume"
                 >
-                  SERVICES{" "}
+                  services{" "}
                 </Link>{" "}
               </nav>
             </div>
