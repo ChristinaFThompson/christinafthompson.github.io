@@ -5,30 +5,44 @@
   justify-content: center;
   margin: 0px 10px 0px 10px;
   height: calc(100vh - 60px);
-  /* border: 5px solid yellow; */
+  border: 5px solid yellow;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 .title {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  /* justify-content: center; */
   border: 5px solid rgb(21, 255, 0);
   font-size: 30px;
 }
 
-#work-container {
+.work-container {
   margin-top: 5px;
+  align-items: center;
+  height: 100%;
   display: flex;
-  justify-content: space-between;
-  border: 2px solid blue;
+  flex-direction: column;
+  border: 5px solid blue;
+  padding: 0px;
+  /* box-sizing: border-box; */
+}
+.project {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+p {
+  font-size: 20px;
+  margin: 0;
 }
 
-.card-container {
-  flex-basis: 40%;
-  box-sizing: border-box;
-  margin: 5px;
-  border: 2px solid yellow;
-}
+/* img {
+  width: 320px;
+  height: 25%;
+} */
 
 @media screen and (max-width: 600px) {
   #work-container {

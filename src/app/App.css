@@ -28,7 +28,7 @@ header a {
 }
 .fab,
 .fas {
-  font-size: 36px;
+  font-size: 25px;
   align-content: center;
   color: rgb(92, 89, 89);
 }
@@ -53,9 +53,12 @@ nav a {
   width: 100%;
   padding: 3px;
   overflow: hidden;
+  opacity: 0.8;
+  transition: opacity 0.2sec ease-in-out;
 }
 .navborder :hover {
   cursor: pointer;
+  opacity: 0.6;
 }
 
 .burger {
@@ -65,7 +68,7 @@ nav a {
   background-color: transparent;
   border: none;
   outline: none;
-  position: fixed;
+  /* position: fixed; */
   z-index: 2;
   box-sizing: border-box;
   /* justify-content: space-between; */
@@ -96,6 +99,8 @@ nav a {
     display: flex;
     right: 5%;
     top: 4px;
+    /* position: fixed; */
+    position: absolute;
   }
   nav {
     display: flex;
@@ -105,11 +110,13 @@ nav a {
   }
 
   .nav-open a {
+    position: relative;
     margin: 0;
+    top: 12px;
     line-height: 1.6;
   }
 
   header {
-    padding-top: 30px;
+    padding-top: 20px;
   }
 }

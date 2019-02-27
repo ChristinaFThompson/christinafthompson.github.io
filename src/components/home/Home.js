@@ -5,20 +5,16 @@ export class Home extends Component {
   render() {
     return (
       <div className="container">
-        <div className="title">
-          <h1>Christina Thompson</h1>
+        <div className="slogan">
+          <p>Ideate.</p>
+          <p>Develop.</p>
+          <p>Impact.</p>
         </div>
-        <div className="decsription">
+        <div className="quote">
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            When I dare to be powerful - to use my strength in the service of my
+            vision, then it becomes less and less important whether I am afraid.
+            - Audre Lorde
           </p>
         </div>
       </div>

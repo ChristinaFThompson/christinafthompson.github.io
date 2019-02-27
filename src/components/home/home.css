@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  justify-content: center;
   background-image: url("https://images.pexels.com/photos/1092364/pexels-photo-1092364.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
   background-size: cover;
   justify-content: center;
@@ -8,16 +9,19 @@
   /* border: 5px solid yellow; */
   flex-direction: column;
   flex-wrap: wrap;
+  text-align: center;
 }
-.title {
+.slogan {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  /* padding-bottom: 20%; */
+  font-size: 25px;
+  margin: 0;
   /* border: 5px solid rgb(21, 255, 0); */
-  font-size: 30px;
 }
 
-.decsription {
+.quote {
   display: flex;
   justify-content: center;
-  /* border: 5px solid rgb(76, 0, 255); */
+  border: 5px solid rgb(76, 0, 255);
 }
