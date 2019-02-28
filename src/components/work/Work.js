@@ -5,7 +5,7 @@ class Work extends Component {
   render() {
     return (
       <div className="container">
-        <div className="title">
+        <div className="work-title">
           <h1>Work</h1>
           <div>
             <a

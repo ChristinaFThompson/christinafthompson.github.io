@@ -29,24 +29,11 @@ class App extends Component {
             <button className="burger" onClick={this.handleClick} />
             <div className={this.state.toggleOn ? "nav-open" : "nav-closed"}>
               <nav>
-                <Link
-                  to="/work"
-                  style={{ textDecoration: "none", color: "grey" }}
-                >
-                  work
-                </Link>
-                <Link
-                  to="/about"
-                  style={{ textDecoration: "none", color: "grey" }}
-                  className="work"
-                >
+                <Link to="/work">work</Link>
+                <Link to="/about" className="work">
                   about
                 </Link>{" "}
-                <Link
-                  to="/services"
-                  style={{ textDecoration: "none", color: "grey" }}
-                  className="services"
-                >
+                <Link to="/services" className="services">
                   services{" "}
                 </Link>{" "}
               </nav>

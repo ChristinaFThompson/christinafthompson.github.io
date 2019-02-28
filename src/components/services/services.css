@@ -1,7 +1,7 @@
 .container {
   display: flex;
   /* background-image: url("https://images.pexels.com/photos/1092364/pexels-photo-1092364.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"); */
-  background-image: url("https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  /* background-image: url("https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
   background-size: cover;
   justify-content: center;
   margin: 0px 5px 0px 5px;
