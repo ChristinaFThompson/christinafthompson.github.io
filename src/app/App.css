@@ -7,7 +7,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 5px;
-  margin: 2px 10px 2px 10px;
+  margin: 0px 20px 0px 20px;
   /* border: 2px solid black; */
 }
 
@@ -24,13 +24,14 @@ header {
 header a {
   text-decoration: none;
   border: none;
+
   color: rgb(92, 89, 89);
 }
 .fab,
 .fas {
-  font-size: 25px;
+  font-size: 30px;
   align-content: center;
-  color: rgb(92, 89, 89);
+  color: rgb(0, 0, 0);
 }
 
 nav {
@@ -85,7 +86,7 @@ nav a {
 
 /* media  */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .nav-open {
     display: flex;
     flex-direction: column;
@@ -97,9 +98,8 @@ nav a {
 
   .burger {
     display: flex;
-    right: 5%;
+    right: 4%;
     top: 4px;
-    /* position: fixed; */
     position: absolute;
   }
   nav {
@@ -118,5 +118,16 @@ nav a {
 
   header {
     padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .nav-open a {
+    font-size: 8px;
+    left: 17%;
+  }
+
+  .logo {
+    font-size: 12px;
   }
 }

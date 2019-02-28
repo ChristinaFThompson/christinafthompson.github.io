@@ -4,6 +4,7 @@ import Home from "../components/home/Home";
 import About from "../components/about/About";
 import { Link, Route } from "react-router-dom";
 import Work from "../components/work/Work";
+import Services from "../components/services/Services";
 
 class App extends Component {
   constructor(props) {
@@ -21,7 +22,9 @@ class App extends Component {
       <div className="app">
         <header>
           <div className="navborder">
-            <Link to="/">Christina f. thompson</Link>
+            <div className="logo">
+              <Link to="/">Christina f. thompson</Link>
+            </div>
             <div className="spacer" />
             <button className="burger" onClick={this.handleClick} />
             <div className={this.state.toggleOn ? "nav-open" : "nav-closed"}>
@@ -40,9 +43,9 @@ class App extends Component {
                   about
                 </Link>{" "}
                 <Link
-                  to="/resume"
+                  to="/services"
                   style={{ textDecoration: "none", color: "grey" }}
-                  className="resume"
+                  className="services"
                 >
                   services{" "}
                 </Link>{" "}
@@ -54,7 +57,9 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/work" component={Work} />
+          <Route path="/services" component={Services} />
         </main>
+        {/*
         <footer>
           <a
             className="fab fa-github"
@@ -75,6 +80,7 @@ class App extends Component {
             href="mailto:thomp.christina@gmail.com"
           />
         </footer>
+        */}
       </div>
     );
   }
