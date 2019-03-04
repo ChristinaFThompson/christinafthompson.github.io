@@ -9,17 +9,17 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
-.about-title {
+.about-title h1 {
   display: flex;
   justify-content: center;
   /* border: 5px solid rgb(21, 255, 0); */
-  font-size: 30px;
+  font-size: 18px;
 
   color: rgb(197, 197, 197);
 }
 
 .profile {
-  padding: 30px 0px;
+  padding: 20px 0px;
   justify-content: center;
   font-family: "Roboto", sans-serif;
 
@@ -34,17 +34,35 @@
   /* border: 5px solid red; */
   height: 20%;
 }
-p {
+.profile p {
   font-family: "Roboto", sans-serif;
-
+  font-size: 15px;
   color: rgb(255, 255, 255);
 }
 ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   list-style-type: none;
 }
 li {
   color: white;
+  border: 2pz solid white;
 }
-h1 {
+.skills-title h1 {
+  font-size: 18px;
+
   color: rgb(197, 197, 197);
+}
+
+@media screen and (max-width: 353px) {
+  .profile p {
+    font-size: 12px;
+  }
+  .about-title h1 {
+    font-size: 14px;
+  }
+  .skills-title h1 {
+    font-size: 14px;
+  }
 }
