@@ -9,8 +9,7 @@ footer {
   margin: 0px 20px 0px 20px;
 }
 .logo {
-  font-size: 18px;
-  color: rgb(198, 23, 23);
+  font-size: 20px;
 }
 
 header {
@@ -18,7 +17,6 @@ header {
   justify-content: baseline;
   font-weight: bold;
   text-transform: uppercase;
-  color: rgb(231, 61, 61);
   /* border: 2px solid black; */
   margin: 0px 8px 0px 8px;
 }
@@ -26,6 +24,7 @@ header a {
   text-decoration: none;
   border: none;
   color: rgb(7, 7, 7);
+  font-family: "Roboto", sans-serif;
 }
 .fab,
 .fas {

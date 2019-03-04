@@ -5,16 +5,7 @@ class Work extends Component {
   render() {
     return (
       <div className="container">
-        <div className="work-title">
-          <div>
-            <a
-              className="fab fa-github"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/christinafthompson"
-            />{" "}
-          </div>
-        </div>
+        <div className="work-title" />
 
         <div className="work-container">
           <div className="project">
@@ -87,6 +78,14 @@ class Work extends Component {
                 <br />
                 <p className="tech">HTML, CSS</p>
               </a>{" "}
+            </div>
+            <div>
+              <a
+                className="fab fa-github"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/christinafthompson"
+              />{" "}
             </div>
           </div>
 

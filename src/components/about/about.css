@@ -9,15 +9,42 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
-.title {
+.about-title {
   display: flex;
   justify-content: center;
   /* border: 5px solid rgb(21, 255, 0); */
   font-size: 30px;
+
+  color: rgb(197, 197, 197);
 }
 
-.decsription {
+.profile {
+  padding: 30px 0px;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+
+  /* border: 5px solid rgb(76, 0, 255); */
+}
+
+.quote {
   display: flex;
   justify-content: center;
-  /* border: 5px solid rgb(76, 0, 255); */
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  /* border: 5px solid red; */
+  height: 20%;
+}
+p {
+  font-family: "Roboto", sans-serif;
+
+  color: rgb(255, 255, 255);
+}
+ul {
+  list-style-type: none;
+}
+li {
+  color: white;
+}
+h1 {
+  color: rgb(197, 197, 197);
 }
