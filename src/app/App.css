@@ -46,6 +46,7 @@ nav {
 
 nav a {
   color: rgb(0, 0, 0);
+  padding-left: 10px;
 }
 .nav-open a {
   font-size: 18;
