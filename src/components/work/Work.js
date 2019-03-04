@@ -6,7 +6,6 @@ class Work extends Component {
     return (
       <div className="container">
         <div className="work-title">
-          <h1>Work</h1>
           <div>
             <a
               className="fab fa-github"
@@ -23,7 +22,7 @@ class Work extends Component {
               className="links"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://trippin-travel.herokuapp.com/"
+              href="https://github.com/ChristinaFThompson/Trippin-Frontend"
             >
               <span className="project-title"> Trippin'</span>
               <p>
@@ -43,7 +42,7 @@ class Work extends Component {
                 className="links"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://giveblack-project2.herokuapp.com/"
+                href="https://github.com/ChristinaFThompson/GiveBlack"
               >
                 <span className="project-title"> GiveBlack</span>
                 <p>
@@ -61,12 +60,16 @@ class Work extends Component {
                 className="links"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="#"
+                href="https://github.com/ChristinaFThompson/roomKind"
               >
-                <span className="project-title"> Jeopardy</span>
-                <p>Socio-political online version of the tv game show.</p>
+                <span className="project-title"> RoomKind</span>
+                <p>
+                  {" "}
+                  Airbnb style web application for homeless shelters and
+                  everyday people to list their spare beds for those in need.
+                </p>{" "}
                 <br />
-                <p className="tech">HTML, CSS</p>
+                <p className="tech">Javascript, Express, React, MongoDB</p>{" "}
                 <br />{" "}
               </a>{" "}
             </div>
@@ -77,16 +80,12 @@ class Work extends Component {
                 className="links"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="http://project3-roomkind.surge.sh/"
+                href="https://github.com/ChristinaFThompson/Jeopardy-project1"
               >
-                <span className="project-title"> RoomKind</span>
-                <p>
-                  {" "}
-                  Airbnb style web application for homeless shelters and
-                  everyday people to list their spare beds for those in need.
-                </p>
+                <span className="project-title"> Jeopardy</span>
+                <p>Socio-political online version of the tv game show.</p>
                 <br />
-                <p className="tech">Javascript, Express, React, MongoDB</p>{" "}
+                <p className="tech">HTML, CSS</p>
               </a>{" "}
             </div>
           </div>

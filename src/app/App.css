@@ -10,7 +10,7 @@ footer {
 }
 .logo {
   font-size: 18px;
-  color: black;
+  color: rgb(198, 23, 23);
 }
 
 header {
@@ -36,16 +36,19 @@ header a {
 
 nav {
   display: flex;
-  font-size: 10px;
+  font-size: 14px;
   justify-content: center;
   font-weight: bold;
-  padding: 5px 2px;
+  padding: 12px 2px;
   text-transform: uppercase;
   /* border: 2px solid rgb(12, 201, 81); */
 }
 
 nav a {
   color: rgb(0, 0, 0);
+}
+.nav-open a {
+  font-size: 18;
 }
 
 .navborder {
@@ -84,7 +87,6 @@ nav a {
   flex: 1;
 }
 
-/* media  */
 @media screen and (max-width: 768px) {
   .nav-open {
     display: flex;
@@ -101,6 +103,7 @@ nav a {
     top: 4px;
     position: absolute;
   }
+
   nav {
     display: flex;
     flex-direction: column;
@@ -112,8 +115,9 @@ nav a {
     position: relative;
     margin: 0;
     top: 12px;
-    line-height: 1.4;
+    line-height: 1.8;
     left: 7%;
+    font-size: 16px;
   }
 
   header {

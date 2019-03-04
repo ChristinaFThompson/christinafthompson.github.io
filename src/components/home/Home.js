@@ -13,7 +13,7 @@ export class Home extends Component {
 
         <div className="quote">
           <p>
-            "When I dare to be powerful - to use my strength in the service of
+            " When I dare to be powerful - to use my strength in the service of
             my vision, then it becomes less and less important whether I am
             afraid."
             <span>- Audre Lorde</span>
