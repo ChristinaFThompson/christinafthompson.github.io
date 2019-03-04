@@ -6,7 +6,7 @@ export class About extends Component {
     return (
       <div className="container">
         <div className="about-title">
-          <h1> HELLO.</h1>
+          <h1> HELLO..</h1>
         </div>
         <div className="profile">
           <p>
@@ -32,15 +32,17 @@ export class About extends Component {
           <div className="skills-title">
             <h1>Fluency..</h1>
           </div>
-          <ul>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>Python/Django</li>
-            <li>PostgreSQL</li>
-            <li>Mongoose/MongoDB</li>
-          </ul>
+          <div className="skills-list">
+            <ul>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>Python/Django</li>
+              <li>PostgreSQL</li>
+              <li>Mongoose/MongoDB</li>
+            </ul>
+          </div>
         </div>
         {/*  
         <div className="quote">

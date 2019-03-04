@@ -29,6 +29,11 @@
   color: rgb(197, 197, 197);
   font-family: "Srisakdi", cursive;
 }
+.fa-address-card {
+  color: rgb(197, 197, 197);
+  padding-top: 40px;
+  font-size: 50px;
+}
 
 span {
   line-height: 2;

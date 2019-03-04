@@ -39,11 +39,11 @@
   font-size: 15px;
   color: rgb(255, 255, 255);
 }
-ul {
+.skills-list ul {
   display: flex;
   flex-direction: column;
-  align-items: center;
   list-style-type: none;
+  /* border: 2px solid white; */
 }
 li {
   color: white;
@@ -51,6 +51,7 @@ li {
 }
 .skills-title h1 {
   font-size: 18px;
+  font-family: "Roboto", sans-serif;
 
   color: rgb(197, 197, 197);
 }

@@ -56,6 +56,7 @@ p {
   font-size: 14px;
   margin: 2px;
   font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
 }
 .fa-github {
   color: aliceblue;
@@ -118,7 +119,9 @@ a {
     font-size: 18px;
   }
   p {
-    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
   }
   .fa-github {
     color: aliceblue;

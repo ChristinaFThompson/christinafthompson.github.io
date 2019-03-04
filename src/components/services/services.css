@@ -12,7 +12,7 @@
 }
 .title {
   display: flex;
-  color: black;
+  color: rgb(237, 237, 237);
   flex-direction: column;
   /* justify-content: center; */
   /* border: 2px solid rgb(21, 255, 0); */
