@@ -33,15 +33,13 @@ export class About extends Component {
             <h1>Fluency..</h1>
           </div>
           <div className="skills-list">
-            <ul>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>Python/Django</li>
-              <li>PostgreSQL</li>
-              <li>Mongoose/MongoDB</li>
-            </ul>
+            <div>JavaScript</div>
+            <div>React</div>
+            <div>JavaScript</div>
+            <div>JavaScript</div>
+            <div>JavaScript</div>
+            <div>JavaScript</div>
+            <div>JavaScript</div>
           </div>
         </div>
         {/*  

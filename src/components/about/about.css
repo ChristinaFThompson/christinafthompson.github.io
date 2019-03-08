@@ -39,16 +39,15 @@
   font-size: 15px;
   color: rgb(255, 255, 255);
 }
-.skills-list ul {
+.skills-list {
   display: flex;
   flex-direction: column;
-  list-style-type: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+
   /* border: 2px solid white; */
 }
-li {
-  color: white;
-  border: 2pz solid white;
-}
+
 .skills-title h1 {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
