@@ -15,30 +15,34 @@
 }
 
 .work-title {
+  font-size: 45px;
   color: white;
+  font-family: "Srisakdi", cursive;
 }
 
 .project {
-  margin: 20px;
+  margin: 15px;
   /* border: 2px solid white; */
 }
-
+/* 
 .project:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
+ */
 
 /* makes image responsive */
 img {
   width: 100%;
   height: auto;
+  padding: 4px;
   border-radius: 5px;
 }
 
 a:hover {
   /* background-color: #40ffffff; */
-  /* color: rgb(43, 42, 40); */
+  color: rgb(192, 189, 182);
 }
 
 p {
@@ -48,20 +52,23 @@ p {
   font-family: "Roboto", sans-serif;
   color: rgb(255, 255, 255);
 }
-.fa-github {
+.fa-github,
+.fa-rocket {
   color: rgb(255, 255, 255);
-  padding-top: 5px;
-  font-size: 10px;
+  padding-top: 10px;
+  font-size: 30px;
 }
 
 .project-title {
   font-size: 1em;
-  color: rgb(197, 197, 197);
+  color: rgb(235, 230, 230);
   font-weight: bold;
   font-family: "Roboto", sans-serif;
 }
 .links,
 a {
+  display: flex;
+  justify-content: space-evenly;
   /* font-weight: bold; */
   text-decoration: none;
   cursor: pointer;
@@ -79,7 +86,26 @@ a {
     display: block;
     flex-direction: column;
   }
-  h1 {
-    font-size: 15px;
+  .work-title {
+    font-size: 35px;
+    color: rgb(235, 230, 230);
+  }
+  .fa-github,
+  .fa-rocket {
+    font-size: 22px;
+  }
+  .project-title {
+    padding-top: 20px;
+    font-size: 1.2em;
+  }
+  p {
+    font-size: 1em;
+    padding-top: 2px;
+  }
+  .blurb {
+    padding-top: 5px;
+  }
+  .caveat {
+    font-size: 0.5em;
   }
 }

@@ -8,7 +8,13 @@ class Services extends Component {
         <div className="title">
           <h1> Coming Soon</h1>
         </div>
-        <div className="work-container" />
+        {/*  
+        <div className="services-container">
+          <div className="offering">Web Development</div>
+          <div className="offering">Software Engineering</div>
+          <div className="offering">Project Management</div>
+        </div>
+        */}
       </div>
     );
   }
