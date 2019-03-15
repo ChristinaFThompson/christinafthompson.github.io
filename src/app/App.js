@@ -42,7 +42,7 @@ class App extends Component {
         </header>
         <main>
           <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
+          <Route exact path="/about" component={About} />
           <Route path="/work" component={Work} />
           <Route path="/services" component={Services} />
         </main>
