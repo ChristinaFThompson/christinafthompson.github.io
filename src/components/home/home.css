@@ -25,16 +25,17 @@
   justify-content: center;
   align-items: center;
   /* height: 100%; */
-  font-size: 50px;
+  font-size: 60px;
   color: rgb(197, 197, 197);
   font-family: "Srisakdi", cursive;
-}
-.fa-address-card {
-  color: rgb(197, 197, 197);
-  padding-top: 40px;
-  font-size: 50px;
 }
 
 span {
   line-height: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .slogan {
+    font-size: 40px;
+  }
 }

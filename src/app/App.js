@@ -46,28 +46,6 @@ class App extends Component {
           <Route path="/work" component={Work} />
           <Route path="/services" component={Services} />
         </main>
-        {/*
-        <footer>
-          <a
-            className="fab fa-github"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/christinafthompson"
-          />{" "}
-          <a
-            className="fab fa-linkedin"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/christinafthompson/"
-          />{" "}
-          <a
-            className="fas fa-address-card"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="mailto:thomp.christina@gmail.com"
-          />
-        </footer>
-        */}
       </div>
     );
   }

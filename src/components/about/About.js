@@ -8,6 +8,7 @@ export class About extends Component {
         <div className="about-title">
           <h1> about</h1>
         </div>
+
         <div className="about-container">
           <div className="profile">
             <p>
@@ -29,33 +30,25 @@ export class About extends Component {
               learning new langauges/frameworks.{" "}
             </p>
           </div>
-          <div className="skills">
-            <div className="skills-title">
-              <h1>Fluency</h1>
-            </div>
-            <div className="skills-list">
-              <div>JavaScript</div>
-              <div>Python</div>
-              <div>React.js</div>
-              <div>jQuery</div>
-              <div>Bootstrap</div>
-              <div>HTML/CSS</div>
-              <div>Handlebars</div>
-              <div>Express</div>
-              <div>Node.js</div>
-              <div>Django</div>
-              <div>PostgreSQL</div>
-              <div>MongoDB</div>
-              <div>Drupal</div>
-              <div>WordPress</div>
-            </div>
-          </div>
-          <span>
-            * To view full resume click <br />
-            <a href="link/to/your/download/file" download>
-              HERE
+
+          <span className="resume">
+            [ To view full resume click ]
+            <a
+              href="https://drive.google.com/file/d/1_QT1iyK6WUOVBU0XXcsTbDyCaMSKcUDA/view?usp=sharing"
+              download
+            >
+              HERE{" "}
             </a>
           </span>
+          <div className="contact">
+            [ Contact Me ]
+            <a
+              className="fas fa-address-card"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="mailto:thomp.christina@gmail.com"
+            />
+          </div>
         </div>
         {/*  
         <div className="quote">

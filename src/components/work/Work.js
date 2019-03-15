@@ -21,7 +21,9 @@ class Work extends Component {
             </p>
 
             <img src={car} alt="yellowCar" />
-            <p className="tech">Javascript, React, Python, Django, Yelp API</p>
+            <p className="tech">
+              React | Django REST framework | Yelp API | PostgreSQL
+            </p>
             <div className="links">
               {" "}
               <a
@@ -34,7 +36,7 @@ class Work extends Component {
                 className="fas fa-rocket"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/christinafthompson"
+                href="https://trippin-travel.herokuapp.com/"
               />{" "}
             </div>
           </div>
@@ -47,7 +49,9 @@ class Work extends Component {
                 their donation dashboard to aggregate doantion giving.
               </p>
               <img src={fist} alt="Fist" />
-              <p className="tech">Javascript, Express, NodeJS, CSS</p>
+              <p className="tech">
+                Express.js | Node.js | MongoDB | HTML5/CSS3
+              </p>
               <div className="links">
                 {" "}
                 <a
@@ -75,7 +79,7 @@ class Work extends Component {
                 homeless to reserve.
               </p>
               <img src={rk} alt="Shelters" />
-              <p className="tech">Javascript, Express, React, MongoDB</p>
+              <p className="tech">Express.js | React | MongoDB</p>
               <div className="links">
                 {" "}
                 <a
@@ -103,7 +107,7 @@ class Work extends Component {
                 correctly!
               </p>
               <img src={jeop} alt="Jeopardy" />
-              <p className="tech">HTML, CSS</p>
+              <p className="tech">HTML | CSS</p>
               <div className="links">
                 {" "}
                 <a

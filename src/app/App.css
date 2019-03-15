@@ -50,6 +50,9 @@ nav a {
 .nav-open a {
   font-size: 18;
 }
+.nav-open a:hover {
+  color: rgb(230, 121, 12);
+}
 
 .navborder {
   display: flex;
@@ -57,8 +60,8 @@ nav a {
   width: 100%;
   padding: 3px;
   overflow: hidden;
-  opacity: 0.8;
-  transition: opacity 0.2sec ease-in-out;
+  /* opacity: 0.8; */
+  transition: 0.2sec ease-in-out;
 }
 .navborder :hover {
   cursor: pointer;
@@ -99,9 +102,11 @@ nav a {
 
   .burger {
     display: flex;
-    right: 2%;
-    top: 4px;
+    right: 3%;
+    top: 10px;
     position: absolute;
+    width: 30px;
+    height: 30px;
   }
 
   nav {
@@ -114,13 +119,13 @@ nav a {
   .nav-open a {
     position: relative;
     margin: 0;
-    top: 12px;
+    top: 8px;
     line-height: 1.8;
     left: 7%;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   header {
-    padding-top: 20px;
+    padding-top: 15px;
   }
 }
