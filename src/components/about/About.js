@@ -34,7 +34,7 @@ export class About extends Component {
           <span className="resume">
             [ To view full resume click ]
             <a
-              href="https://drive.google.com/file/d/1_QT1iyK6WUOVBU0XXcsTbDyCaMSKcUDA/view?usp=sharing"
+              href="https://drive.google.com/file/d/1St36nxgjybg0i3KQvUcdON2zlYaOMDG6/view?usp=sharing"
               download
             >
               HERE{" "}
