@@ -6,7 +6,7 @@ export class About extends Component {
     return (
       <div className="container">
         <div className="about-title">
-          <h1> about</h1>
+          <h1> hello</h1>
         </div>
 
         <div className="about-container">
@@ -34,7 +34,7 @@ export class About extends Component {
           <span className="resume">
             [ To view full resume click ]
             <a
-              href="https://drive.google.com/file/d/1St36nxgjybg0i3KQvUcdON2zlYaOMDG6/view?usp=sharing"
+              href="https://drive.google.com/file/d/16AiSpRPz-gB1AfXTnCHHt34OaTy74Wrp/view?usp=sharing"
               download
             >
               HERE{" "}
