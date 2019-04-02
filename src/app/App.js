@@ -33,9 +33,11 @@ class App extends Component {
                 <Link to="/about" className="work">
                   about
                 </Link>{" "}
+                {/*  
                 <Link to="/services" className="services">
                   services{" "}
                 </Link>{" "}
+                */}
               </nav>
             </div>
           </div>
@@ -44,7 +46,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route path="/work" component={Work} />
-          <Route path="/services" component={Services} />
+          {/* <Route path="/services" component={Services} /> */}
         </main>
       </div>
     );

@@ -15,24 +15,30 @@
   /* border: 5px solid rgb(21, 255, 0); */
   font-size: 40px;
   text-transform: uppercase;
-  font-family: "Playfair Display", serif;
-  color: rgb(197, 197, 197);
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
 }
 
 .profile {
   padding: 0px 0px;
   justify-content: center;
-  font-family: "Roboto", sans-serif;
-
+  max-width: 50%;
   /* border: 5px solid rgb(76, 0, 255); */
 }
 
 .about-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 5px solid rgb(76, 0, 255); */
+  display: flex;
   flex-direction: column;
 }
 a {
   color: white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+
   text-decoration: none;
   cursor: pointer;
 }
@@ -41,53 +47,20 @@ a:hover {
 }
 
 .profile p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  color: rgb(255, 255, 255);
-}
-.contact {
-  color: rgb(255, 255, 255);
-}
-
-strong {
-  font-size: 14px;
-}
-
-a {
-  padding-left: 5px;
-}
-span {
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
-  color: white;
-  font-size: 1em;
-}
-.fa-address-card {
-  color: rgb(197, 197, 197);
-  font-size: 40px;
-  padding-left: 5px;
+  color: rgb(242, 234, 234);
 }
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
   .profile p {
-    font-size: 15px;
+    font-size: 16px;
   }
   .about-title h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
-
-  span {
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-size: 1em;
-  }
-  a:hover {
-    color: rgb(232, 176, 47);
-  }
-  .fa-address-card {
-    font-size: 25px;
+  .profile {
+    max-width: 70%;
   }
 }
