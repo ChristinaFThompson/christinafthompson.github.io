@@ -133,3 +133,15 @@ nav a {
     padding-top: 15px;
   }
 }
+@media screen and (max-width: 320px) {
+  .nav-open a {
+    line-height: 2;
+    font-size: 16px;
+  }
+
+  .burger {
+    width: 35px;
+    height: 35px;
+    top: 9px;
+  }
+}

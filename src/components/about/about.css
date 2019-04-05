@@ -65,15 +65,17 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .profile p {
     font-size: 14px;
   }
   .about-title h1 {
     font-size: 25px;
-    padding-top: 15px;
   }
   .profile {
     max-width: 85%;
+  }
+  .about-container {
+    padding-top: 15px;
   }
 }
