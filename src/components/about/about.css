@@ -49,7 +49,7 @@ a:hover {
 .profile p {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  color: rgb(242, 234, 234);
+  color: rgb(255, 255, 255);
 }
 
 /* Media Queries */
@@ -62,5 +62,15 @@ a:hover {
   }
   .profile {
     max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .profile p {
+    font-size: 14px;
+  }
+  .about-title h1 {
+    font-size: 25px;
+    padding-top: 15px;
   }
 }

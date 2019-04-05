@@ -9,7 +9,11 @@ footer {
   margin: 0px 20px 0px 20px;
 }
 .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 20px;
+  /* border: 2px solid black; */
 }
 
 header {
@@ -35,7 +39,7 @@ header a {
 
 nav {
   display: flex;
-  font-size: 14px;
+  font-size: 16px;
   justify-content: center;
   font-weight: bold;
   padding: 12px 2px;
@@ -103,7 +107,7 @@ nav a {
   .burger {
     display: flex;
     right: 3%;
-    top: 10px;
+    top: 20px;
     position: absolute;
     width: 30px;
     height: 30px;
@@ -120,7 +124,7 @@ nav a {
     position: relative;
     margin: 0;
     top: 8px;
-    line-height: 1.8;
+    line-height: 1.9;
     left: 7%;
     font-size: 14px;
   }

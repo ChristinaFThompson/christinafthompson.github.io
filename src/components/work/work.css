@@ -50,7 +50,7 @@ p {
   font-size: 0.8em;
   margin: 0px;
   font-family: "Montserrat", sans-serif;
-  color: rgb(242, 234, 234);
+  color: rgb(255, 255, 255);
 }
 .fa-github,
 .fa-rocket {
@@ -107,5 +107,12 @@ a {
   }
   .caveat {
     font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .work-title {
+    font-size: 30px;
+    padding-top: 25px;
   }
 }
