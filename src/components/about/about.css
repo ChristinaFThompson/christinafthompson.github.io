@@ -73,4 +73,7 @@ a:hover {
     font-size: 25px;
     padding-top: 15px;
   }
+  .profile {
+    max-width: 85%;
+  }
 }
