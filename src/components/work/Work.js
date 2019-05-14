@@ -36,7 +36,7 @@ class Work extends Component {
                 className="fas fa-rocket"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://trippin-travel.herokuapp.com/"
+                href="https://youtu.be/56WbyU8ZS4I"
               />{" "}
             </div>
           </div>
