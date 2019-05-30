@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./work.css";
 import car from "./car.jpg";
-import fist from "./fist.png";
+import fist from "./fist2.jpg";
 import jeop from "./jeop.png";
 import rk from "./rk.png";
 
@@ -69,7 +69,7 @@ class Work extends Component {
               </div>
             </div>
           </div>
-          <div className="project">
+          {/* <div className="project">
             <div>
               <h1 className="project-title"> RoomKind</h1>
               <p className="caveat">* Team Built</p>
@@ -97,7 +97,7 @@ class Work extends Component {
               </div>
               <br />{" "}
             </div>
-          </div>
+          </div> */}
           <div className="project">
             <div>
               <h1 className="project-title"> Jeopardy</h1>
