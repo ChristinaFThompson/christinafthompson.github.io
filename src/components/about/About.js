@@ -31,7 +31,7 @@ export class About extends Component {
             </p>
             <br />
             <a
-              href="https://drive.google.com/file/d/1W9pT4oNvkCoq8QvIx8dN1vmh0N2TZlWu/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ATOLk8SaB9aHW0-uAdz4_ME1FeiNz6E8/view?usp=sharing"
               download
             >
               [ Resume ]{" "}
